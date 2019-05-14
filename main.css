@@ -1,0 +1,250 @@
+body{
+    font-family: "Oswald", "Droid Sans", "Droid Serif", sans-serif;
+    color: #7b7d7f;
+    margin: 0;
+}
+
+header{
+    margin: 0;
+    height: 200px;
+    width: 100%;
+    display: inline-flex;
+    background-image: url("Images/grille.png");
+    background-repeat: repeat;
+    margin-bottom: 10px;
+}
+nav{
+    display: inline-flex;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+ul{
+    list-style: none;
+    text-align: left;
+}
+li{
+    padding-left: 3px;
+    padding-bottom: 10px;
+}
+a{
+    text-decoration: none;
+}
+.cat-video{
+    border-top: 1px solid;
+    border-color: #e2e2e2;
+}
+#text-video{
+    height: 100px;
+    width: 100%;
+    background-image: url("Images/grille.png");
+    background-repeat: repeat;
+    font-size: 22px;
+    text-align: center;
+    line-height: 100px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    border: 1px solid;
+    border-color: #e2e2e2;
+}
+.category{
+    text-transform: uppercase;
+}
+
+#fond{
+    border-image-repeat: repeat;
+}
+#logo{
+    margin-top: 2%;
+    margin-right: 20px;
+}
+#cat-hotel{
+    width: 100px;
+    border-bottom: 5px solid;
+    border-color: #ff850c;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+
+}
+#cat-resto{
+    width: 100px;
+    border-bottom: 5px solid;
+    border-color: #f2c40e;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+
+}
+#cat-services{
+    width: 100px;
+    border-bottom: 5px solid;
+    border-color: #6bc43a;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+
+}
+#cat-activites{
+    width: 100px;
+    border-bottom: 5px solid;
+    border-color: #3960a3;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+
+}
+#cat-plus{
+    width: 100px;
+    border-bottom: 5px solid;
+    border-color: #8a2dbc;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+
+}
+.cat-menu{
+    font-size: small;
+}
+#video{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 85px;
+    border-bottom: 1px solid;
+    border-color: #e2e2e2;
+}
+#cat-golf{
+    text-transform: uppercase;
+    color: #c95c0e;
+}
+.golf{
+    margin-left: 20%;
+    width: 20%;
+    border: 1px solid;
+    border-color: #e2e2e2;
+    padding: 10px;
+    height: 400px;
+}
+.published{
+    font-size: 13px;
+    font-style: italic;
+    color: #bab6b4;
+}
+.mid-row{
+    display: inline-flex;
+    margin-right: auto;
+    margin-left: auto;
+}
+.accrobranche{
+    width: 50%;
+    padding: 10px;
+    margin-left: 5%;
+}
+#cat-accro{
+    text-transform: uppercase;
+    color: #c95c0e;
+}
+.mid-column{
+    display: inline-block;
+    margin-right: -10%;
+}
+.fast-food{
+    width: 50%;
+    padding: 10px;
+    margin-left: 5%;
+}
+#cat-food{
+    text-transform: uppercase;
+    color: #c95c0e;
+}
+.cat-commentary{
+    width: 35%;
+    margin-right: 20%;
+}
+#comms{
+    text-transform: uppercase;
+    color: #c95c0e;
+}
+.pic-accro{
+    padding: 5px;
+}
+.bottom-bar{
+    display: inline-flex;
+    text-align: center;
+    width: 100%;
+    background-image: url("Images/grille.png");
+    background-repeat: repeat;
+    border: 1px solid;
+    border-color: #e2e2e2;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.cat-contact{
+    display: inline-block;
+    text-align: left;
+    width: 20%;
+    margin-left: 20%;
+}
+p{
+    margin-block-end: 0;
+    margin-block-start: 0;
+}
+.img-contact{
+    margin-top: 3px;
+}
+#img-contact{
+    margin-top: 3px;
+    margin-left: 3px;
+}
+.adresse{
+    display: inline-flex;
+}
+.phone{
+    display: inline-flex;
+}
+.mail{
+    display: inline-flex;
+    text-align: left;
+    text-decoration: underline;
+}
+.support{
+    display: inline-flex;
+    text-decoration: underline;
+    margin: 2px;
+}
+#adresse{
+    margin-bottom: 5px;
+}
+#billet, #comment, #blabla{
+    text-align: left;
+    width: 30%;
+    margin-left: 25px;
+}
+#blabla{
+    margin-right: 20%;
+}
+#links{
+    display: inline-flex;
+    width: 60%;
+    margin-bottom: 0;
+}
+footer{
+    width: 100%;
+}
+.footer-list{
+    margin-left: 5px;
+    font-size: small;
+}
+#footer-list1{
+    margin-left: 29%;
+    font-size: small;
+}
+.left-footer{
+    display: block;
+}
+#copyright{
+    font-size: small;
+    margin-left: 20%;
+    width: 60%;
+}
+.social-media{
+    text-align: right;
+    margin-top: -2%;
+    margin-right: 20%;
+}
